@@ -1,0 +1,26 @@
+SLIDE 1:
+Course info
+Project title
+Group info
+
+SLIDE 2:
+INTRODUCTION
+	What is cryptography
+	Visual cryptography
+	Visual Steganogrphy
+
+SLIDE 3:
+	Overview of visual cryptography
+	How visual cryptography works
+		pixels algo + example
+
+SLIDE 4:
+	Overview of visual steganography
+	How visual steganography works
+		pixels algo + example
+
+SLIDE 5:
+Conclusion or use
+
+SLIDE 6:
+Thank you
