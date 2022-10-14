@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="_RlcloJJTEeyY-MMXFnIiyQ">
+      <COMMENT>Created by: HP</COMMENT>
+      <CREATION-TIME>2022-02-20T19:14:50.169+05:30</CREATION-TIME>
+      <REQ-IF-TOOL-ID>ReqIF Studio (https://reqif.academy)</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>ProR (http://pror.org)</SOURCE-TOOL-ID>
+      <TITLE>Specification Title</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING IDENTIFIER="_RlclopJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="T_String32k" MAX-LENGTH="32000"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE IDENTIFIER="_Rlclo5JTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="Requirement Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_RlclpJJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_RlclopJTEeyY-MMXFnIiyQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_ZFM7wJJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:15:37.899+05:30" LONG-NAME="ID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_RlclopJTEeyY-MMXFnIiyQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_bRlTwJJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:15:53.477+05:30" LONG-NAME="Owner">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_RlclopJTEeyY-MMXFnIiyQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE IDENTIFIER="_RlclpZJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="Specification Type">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING IDENTIFIER="_RlclppJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="Description">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>_RlclopJTEeyY-MMXFnIiyQ</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT IDENTIFIER="_Rlclp5JTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:34:51.519+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Inventory manager">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Shubham Patel">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_bRlTwJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_aSfG4JJWEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:53:35.448+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 1.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_bRlTwJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I want a feature like database of medicines which can give information about medicine's a unique code number for medicine with medicine trade name, supplier vendor's details, medicine generic name, unit selling price, unit purchasin price, quantity etc.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_BuIVYJJYEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:53:55.320+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 1.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I want feature that can update the stock, price etc. when new stock of medicines arrives.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_MHU90JJYEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:53:58.824+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 1.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I want a feature that can give information about expired medicines.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_0VRL8JJZEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:05:02.594+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 1.4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I want feature that gives information about thresold quantity of medicines and it should be updated in every week. It should generate a list of required medicines. When medicine quantity goes below thresold quantity, it should be added to the list.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_V24hcJJaEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:27.763+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Purchase and billing system">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Ayush Prajapati">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_bRlTwJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_kfPR8JJaEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:31.458+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 3.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I require a facility that can generate cash receipt for particular order. It should include medicine code number, name, quantity, price and total amount.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_Urpn8JJbEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:35.674+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 3.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I require a cheque generating facility for vendors from whom I purchase medicines and it should verify details from me.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_hZoWcJJbEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:46.058+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 3.3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I require a database of my purchase orders from vendors.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_wmJugJJcEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:22:55.089+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Data statistics">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Shubham Patel / Ayush Prajapati">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_bRlTwJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_zlkF8JJcEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:13.715+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 2.1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, It should give me graph of amout of medicines sold, profit per medicine for specific period.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_HWq48JJdEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:25:24.235+05:30">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="REQ 2.2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_ZFM7wJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="As a manager, I should be able to know the demand of medicine through graph so than I can order.">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclpJJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_Rlclo5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPECIFICATIONS>
+        <SPECIFICATION IDENTIFIER="_RlclqZJTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30" LONG-NAME="Specification Document">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Requirements Document">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_RlclppJTEeyY-MMXFnIiyQ</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>_RlclpZJTEeyY-MMXFnIiyQ</SPECIFICATION-TYPE-REF>
+          </TYPE>
+          <CHILDREN>
+            <SPEC-HIERARCHY IDENTIFIER="_Rlclq5JTEeyY-MMXFnIiyQ" LAST-CHANGE="2022-02-20T19:14:50.169+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_Rlclp5JTEeyY-MMXFnIiyQ</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_aS7LwJJWEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:37:14.936+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_aSfG4JJWEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                  <CHILDREN/>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_BulBUJJYEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:48:49.234+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_BuIVYJJYEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_MH8B0JJYEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T19:49:58.920+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_MHU90JJYEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_0WIHkJJZEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:01:37.788+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_0VRL8JJZEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_wnM3YJJcEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:22:41.853+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_wmJugJJcEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_zmIGoJJcEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:23:01.506+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_zlkF8JJcEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_HXZRsJJdEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:25:12.196+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_HWq48JJdEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_V3mTIJJaEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:05:21.715+05:30">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_V24hcJJaEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+              </OBJECT>
+              <CHILDREN>
+                <SPEC-HIERARCHY IDENTIFIER="_kgFmgJJaEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:07:01.435+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_kfPR8JJaEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_UsLzcJJbEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:12:24.476+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_Urpn8JJbEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY IDENTIFIER="_haFpcJJbEeyWBtq05DIlfg" LAST-CHANGE="2022-02-20T20:13:50.245+05:30">
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_hZoWcJJbEeyWBtq05DIlfg</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS>
+    <REQ-IF-TOOL-EXTENSION>
+      <configuration:ProrToolExtension>
+        <configuration:generalConfiguration>
+          <configuration:ProrGeneralConfiguration>
+            <configuration:labelConfiguration>
+              <configuration:LabelConfiguration>
+                <defaultLabel>Description</defaultLabel>
+              </configuration:LabelConfiguration>
+            </configuration:labelConfiguration>
+          </configuration:ProrGeneralConfiguration>
+        </configuration:generalConfiguration>
+        <configuration:presentationConfigurations>
+          <configuration:ProrPresentationConfigurations/>
+        </configuration:presentationConfigurations>
+      </configuration:ProrToolExtension>
+    </REQ-IF-TOOL-EXTENSION>
+  </TOOL-EXTENSIONS>
+</REQ-IF>

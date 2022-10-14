@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<configuration:ProrToolExtension xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+  <specViewConfigurations>
+    <specification href="MSA.reqif#_RlclqZJTEeyY-MMXFnIiyQ"/>
+    <columns label="ID" width="102"/>
+    <columns label="Description" width="762"/>
+    <columns label="Owner" width="156"/>
+    <leftHeaderColumn label="Lead Header Column" width="30"/>
+  </specViewConfigurations>
+  <generalConfiguration>
+    <labelConfiguration>
+      <defaultLabel>Description</defaultLabel>
+    </labelConfiguration>
+  </generalConfiguration>
+  <presentationConfigurations/>
+</configuration:ProrToolExtension>

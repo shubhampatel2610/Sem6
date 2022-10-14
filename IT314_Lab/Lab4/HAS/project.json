@@ -1,0 +1,36 @@
+{
+  "id": "HAS_51",
+  "documents": [
+    "SRS.json"
+  ],
+  "traceability": {
+    "conflict": {
+      "name": "Conflict",
+      "source": "Is in conflict with"
+    },
+    "dependency": {
+      "name": "Dependency",
+      "source": "Depends on",
+      "target": "Blocks"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.13",
+    "saveHistory": true
+  }
+}

@@ -1,0 +1,2129 @@
+{
+  "id": "HAS_51",
+  "documents": [
+    {
+      "id": "SRS",
+      "guid": "b4beadef-3fe9-4e5e-b7ac-62ad8564bfb0",
+      "name": "Software Requirements Specification",
+      "lastId": 31,
+      "createdOn": "2022-03-06T09:48:29.438Z",
+      "createdBy": {
+        "name": "Shubham",
+        "email": "201901100@daiict.ac.in",
+        "company": "DAIICT"
+      },
+      "lastChangedOn": "2022-03-06T16:19:57.811Z",
+      "lastChangedBy": {
+        "name": "Shubham",
+        "email": "201901100@daiict.ac.in",
+        "company": "DAIICT"
+      },
+      "helpRef": "ISO/IEC/IEEE 29148:2018",
+      "data": [
+        {
+          "id": "1",
+          "guid": "a9555783-9d56-4e40-844c-7ae110679929",
+          "heading": "Introduction",
+          "text": "<p>Project name : Hotel Automation System</p><p>Group id : 51</p><p>Student name : Ayush Prajapati - 201901099&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shubham Patel - 201901100</p>",
+          "helpRef": "8.5",
+          "priority": "H",
+          "type": "INF",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T09:48:51.859Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Project name : Hotel Automation System</p><p>Group id : 51</p><p>Student name : Ayush Prajapati - 201901099&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shubham Patel - 201901100</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:42:18.637Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Project name : Hotel Automation System</p><p>Group id : 08</p><p>Student name : Himanshu Dudhatra - 201901011&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Jay Bhalala - 201901012</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:43:30.206Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Project name : Hotel Automation System</p><p>Group id : 08</p><p>Student name : Ayush Prajapati - 201901099&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shubham Patel - 201901100</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:43:59.256Z"
+            },
+            {
+              "attributesChanged": {
+                "type": "SEC"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:44:24.066Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Project name : Hotel Automation System</p><p>Group id : 51</p><p>Student name : Ayush Prajapati - 201901099&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Shubham Patel - 201901100</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:01:05.240Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Project name : Hotel Automation System</p><p>Group id : 08</p><p>Student name : Himanshu Dudhatra - 201901011&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Jay Bhalala - 201901012</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:18:01.407Z"
+            },
+            {
+              "attributesChanged": {
+                "priority": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:49:01.272Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "2",
+              "guid": "dc2b9726-6c77-42b9-a144-d2af071ca015",
+              "heading": "Purpose",
+              "text": "<p>The purpose of HAS is to provide and maintain every details of hostel management staff, catering staff, customers etc. on single click. The manager and receptionist will have the privilege to access the whole database and they can update in it. Customers can easily have services like registration, login, room booking, payment etc.&nbsp;</p>",
+              "helpRef": "9.6.2",
+              "priority": "H",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:49:05.326Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:49:05.179Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>The purpose of HAS is to provide and maintain every details of hostel management staff, catering staff, customers etc. on single click.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:55:18.487Z"
+                }
+              ]
+            },
+            {
+              "id": "3",
+              "guid": "2723a329-d40d-43d6-ab71-732a737d0346",
+              "heading": "Scope",
+              "text": "<p>HAS will simplify the day by day processes of the hotel. Customers and staff can access information via application or on the spot. The database will be used to store the whole data so that it can be used for further access.</p>",
+              "helpRef": "9.6.3",
+              "priority": "H",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:49:34.360Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:49:08.001Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>HAS will simplify the day by day processes of the hotel. Customers and staff can access information via application or on the spot.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:56:11.335Z"
+                }
+              ]
+            },
+            {
+              "id": "4",
+              "guid": "6a37bbd9-fa6c-4ee2-8df9-1cdd0eabedb8",
+              "heading": "Product perspective",
+              "text": "<p>The database should contains the details of customers like name, phone number, their booking details. It also contains room details like room no, type, rate, duration of stay etc.</p>",
+              "helpRef": "9.6.4",
+              "priority": "H",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:49:46.979Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:49:12.370Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>The database should contains the details of customers, room details, catering food stock etc.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:57:21.856Z"
+                }
+              ],
+              "children": [
+                {
+                  "id": "5",
+                  "guid": "444ea347-9d83-4d31-8c85-aaf0f497653b",
+                  "heading": "System interfaces",
+                  "text": "<p>The system should be promoted by the database. The database will contains customer details and room details.</p>",
+                  "helpRef": "9.6.4.1",
+                  "priority": "H",
+                  "type": "INT",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:03.384Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:44:42.495Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:27.938Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The system should be promoted by the database with the details of rooms, catering and customers.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:58:38.327Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The system should be promoted by the database. The database will&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:59:25.365Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "6",
+                  "guid": "d1c37d23-15ad-4692-95eb-5c3b56d1f902",
+                  "heading": "User interfaces",
+                  "text": "<p>It should be an application or website on browser. It should have services like booking, bill generator, payment and access to database for some extend as per their role. The users are customer, manager, receptionist.</p>",
+                  "helpRef": "9.6.4.2",
+                  "priority": "H",
+                  "type": "INT",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:14.333Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:44:47.558Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:30.379Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>It should be an application or website with facilities like booking, bill generator and access to database for some extend and it can be able to run on browsers.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:02:05.475Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "7",
+                  "guid": "4fe6601e-42b2-453d-a902-301792722963",
+                  "heading": "Hardware interfaces",
+                  "text": "<p>The website or application should be able to run on any browser in any electronic devices like desktop computer, mobile, laptop, tablet etc.</p>",
+                  "helpRef": "9.6.4.3",
+                  "priority": "H",
+                  "type": "INT",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:23.625Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The website or application should be able to run on any browser in any electronic devices.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:10:35.037Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:45:02.265Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:33.145Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The website or application should be able to run on any browser in any electronic devices like pc, mobile, laptop etc.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:02:53.808Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "8",
+                  "guid": "7c0fd2ca-d832-4cc5-85f0-546d8d5fd06e",
+                  "heading": "Software interfaces",
+                  "text": "<p>Web server and database server will be used in OS like windows, ubuntu. The backend development will be created with the use of Java, HTML, JavaScript.</p>",
+                  "helpRef": "9.6.4.4",
+                  "priority": "H",
+                  "type": "INT",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:32.607Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:45:04.545Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:35.282Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Web server and database server will be OS like windows, ubuntu. The backend development will be created by Java, HTML, JavaScript.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:03:38.905Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "9",
+                  "guid": "0082ce03-72f4-4f37-97ad-c591ed3411d1",
+                  "heading": "Communications interfaces",
+                  "text": "<p>The system shall be using HTTP or HTTPS protocol &nbsp;for communication over Internet. It shall use TCP or IP protocol for intranet communication.</p>",
+                  "helpRef": "9.6.4.5",
+                  "priority": "M",
+                  "type": "INT",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:45.243Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:45:08.477Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:38.316Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The system shall be using HTTP or HTTPS protocol &nbsp;for communication over Internet and for intranet communications, it shall use TCP or IP protocol.&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:04:09.897Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "10",
+                  "guid": "29600554-5ecb-422a-a010-0b2e6b98d231",
+                  "heading": "Memory constraints",
+                  "text": "<p>The system is web based so the storage concern will not happen. Users will get required storage space.</p><p>Use of dissent RAM will solve the RAM concern.</p>",
+                  "helpRef": "9.6.4.6",
+                  "priority": "M",
+                  "type": "NFR",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:50:54.420Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:45:18.610Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:40.480Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The system is web based so the storage concern will not happen. Use of dissent RAM will solve the RAM concern.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:04:51.925Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "11",
+                  "guid": "a35bd1cd-deb4-4493-839e-485c39832f53",
+                  "heading": "Operations",
+                  "text": "<p>Customer can register for services by providing username and phone number and other details.</p><p>To get the room details, customer should choose room type and duration first.</p><p>Payment method should be chosen to make safe payment and after that bill will be generated with details.</p><p>The database should be update at a time.&nbsp;</p>",
+                  "helpRef": "9.6.4.7",
+                  "priority": "H",
+                  "type": "FR",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:51:05.015Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:45:54.760Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>The room details and booking service should be done by website or application.</p><p>The database should be update at a time.</p><p>There should be a bill generator with all particular services.&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:53:24.626Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:44.300Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Customer can register by providing username and phone number and other details.</p><p>To get the room details, room type and duration should be chosen first.</p><p>Payment method should be chosen to make safe payment and after that bill will be generated.</p><p>The database should be update at a time.&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:06:01.964Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Customer can register for services by providing username and phone number and other details.</p><p>To get the room details, customer should choose room type and duration first.</p><p>Payment method should be chosen to make safe payment and after that bill will be generated.</p><p>The database should be update at a time.&nbsp;</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:06:52.519Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "12",
+                  "guid": "31dca617-327c-475d-95fc-1b60182546b1",
+                  "heading": "Site adaptation requirements",
+                  "text": "<p>Usability</p><p>Availability</p><p>Maintainability&nbsp;</p>",
+                  "helpRef": "9.6.4.8",
+                  "priority": "M",
+                  "type": "FR",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:51:16.998Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:46:00.127Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:46.980Z"
+                    }
+                  ]
+                },
+                {
+                  "id": "13",
+                  "guid": "45c411f2-7284-497a-b34c-f191e1feb29a",
+                  "heading": "Interfaces with  services",
+                  "text": "<p>Customer should login or register using email/phone number with password.</p><p>There should be facility for registration or updating in database for customers, manager, receptionist.</p>",
+                  "helpRef": "9.6.4.9",
+                  "priority": "H",
+                  "type": "FR",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T09:51:26.906Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Login using email/phone number with password.</p><p>There should be facility for registration or updating in database.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:00:13.169Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "type": "SEC"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T10:46:16.212Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "priority": null
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T11:49:55.261Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>Login or register using email/phone number with password.</p><p>There should be facility for registration or updating in database.</p>"
+                      },
+                      "changedBy": {
+                        "company": "DAIICT",
+                        "email": "201901100@daiict.ac.in",
+                        "name": "Shubham"
+                      },
+                      "changedOn": "2022-03-06T12:08:25.360Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "guid": "6876053f-5b21-4908-90f9-969fb1bcf1ce",
+              "heading": "Product functions",
+              "text": "<p>There will be a function for Registration which will be used by customers to register for bookings and other access.</p><p>Customer can see room details and book rooms after login so the Login function will be available.</p><p>A function will provide all details of rooms with availability, type, rate.</p><p>A function will available to see the details of existing customers.</p><p>There will be a function to generate bill.</p><p>The customers will have access of payment function for safe payment.</p>",
+              "helpRef": "9.6.5",
+              "priority": "H",
+              "type": "FR",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:51:34.770Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>There will be first Login, Sign up. Then room details with availability, booking details, payment with different methods and feedback acceptance.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:00:25.929Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:46:19.963Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:49:59.036Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>There will be first Login or Register. Then room details with availability, booking details, payment with different methods and feedback acceptance.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:13:07.981Z"
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "guid": "bbd8da0c-4483-4460-a160-5b5ccb1120da",
+              "heading": "User  characteristics",
+              "text": "<p>Manager - He / She should be able to have access of the whole database of hotel so that he / she can perform any task related to booking or updating.</p><p>Receptionist - He / She should be able to update the details of the database according to customer details, room allotment and availability.</p><p>Customer - He / She should have access of the database of room details like room type, rate, booking, availability.</p>",
+              "helpRef": "9.6.6",
+              "priority": "H",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:51:44.559Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:50:07.410Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Manager - He / She should be able to have access of the whole database of hotel so that he / she can perform any task related to booking or managing.</p><p>Receptionist - He / She should be able to update the details of the database according to customer details, room allotment and availability.</p><p>Customer - He / She should have access of the database of room details like room type, rate, booking, availability.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:13:30.847Z"
+                }
+              ]
+            },
+            {
+              "id": "16",
+              "guid": "1eb81989-288a-4847-ae9b-3c79b6dd18e5",
+              "heading": "Limitations",
+              "text": "<p>Customers must register through website or application after he/she can have access of other facilities.</p><p>Customers cannot see the details of other users. They can only see the details of all rooms.</p><p>Only manager and receptionist have access to see the whole database.</p>",
+              "helpRef": "9.6.7",
+              "priority": "M",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:51:53.170Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:49:47.135Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "INF"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:49:54.835Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:50:25.722Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Customers must register through website or application after he/she can have access of other facilities.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:15:03.514Z"
+                }
+              ]
+            },
+            {
+              "id": "17",
+              "guid": "2032918c-2b88-477f-abb9-1445af90736d",
+              "heading": "Assumptions and dependencies",
+              "text": "<p>After registration, customer will have valid credentials for login. &nbsp;They will be provided username and password for their safety.</p><p>Customer should provide valid details in registration.</p>",
+              "helpRef": "9.6.8",
+              "priority": "H",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:52:03.594Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:50:54.274Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": "M"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:01.632Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>After registration, customer will have valid credentials for login.</p><p>Customer should provide valid details in registration.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:15:29.740Z"
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "guid": "7d73b796-3ac7-4f66-aeef-8927ed544c37",
+              "heading": "Definitions",
+              "text": "<p>Features and services are already discussed.</p>",
+              "helpRef": "9.2.3",
+              "priority": "M",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:52:12.609Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:50:58.441Z"
+                }
+              ]
+            },
+            {
+              "id": "19",
+              "guid": "908d16d8-8164-4cae-83e5-46f4fe284325",
+              "heading": "Acronyms and abbreviations",
+              "text": "<p>HAS - Hotel Automation System</p><p>HTTP - Hyper Text Transfer Protocol</p><p>OS - Operation System</p><p>RAM - Random Access Memory</p><p>HTML - Hyper Text Markup Language</p><p>TCP - Transmission Control Protocol</p><p>IP - Internet Protocol</p>",
+              "helpRef": "9.2.5",
+              "priority": "M",
+              "type": "INT",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:52:22.831Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:47:38.687Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:03.850Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>HAS - Hotel Automation System</p><p>HTTP - Hyper Text Transfer Protocol</p><p>OS - Operation System</p><p>HTML - Hyper Text Markup Language</p><p>TCP - Transmission Control Protocol</p><p>IP - Internet Protocol</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:15:56.861Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "guid": "75efce6b-bc46-4110-890e-aa5f148b91c5",
+          "heading": "Requirements",
+          "text": "<p>we have many Requirements(Functional and Non-functional) for various types of user, here it's listed</p><p>below.</p><p>(Functional)</p><p>1. Registration</p><p>The Customer should be able to register with their details.</p><p>The system should record following customer details into member database.</p><p>&nbsp; &nbsp;1. Name</p><p>&nbsp; &nbsp;2. Email</p><p>&nbsp; &nbsp;3. Password</p><p>&nbsp; &nbsp;4. Address</p><p>&nbsp; &nbsp;5. DOB</p><p>The system shall send verification message to email.</p><p>2. Logging In</p><p>The system should verify the customer email &amp; password against the member database when logging in.</p><p>After login, member should be directed to Home screen.</p><p>3. Reservation</p><p>The system should enable customer to check for availability of rooms.</p><p>The system should record booking details into database.</p><p>4. Receptionist Access</p><p>The system should provide customer desk portal access to receptionist for providing response to customer inquiry.</p><p>5. Manager Access</p><p>The system should enable manager full modification access to customer ,booking and room information.</p><p>6. Payment Management System</p><p>The system should allow customer to pay bill via online using credit or debit card.</p>",
+          "helpRef": "9.6.10",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T16:17:42.586Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>we have many Requirements(Functional and Non-functional) for various types of user, here it's listed</p><p>below.</p><p>(Functional)</p><p>1. Registration</p><p>The Customer should be able to register with their details</p><p>The system should record following customer details into member database.</p><p>1. Name</p><p>2. Email</p><p>3. Password</p><p>4. Address</p><p>5. DOB</p><p>The system shall send verification message to email</p><p>2. Logging In</p><p>The system should verify the customer email &amp; password against the member database when logging</p><p>in</p><p>After login, member should be directed to Home screen</p><p>3. Reservation</p><p>The system should enable customer to check for availability of rooms</p><p>The system should record booking details into database</p><p>4. Receptionist Access</p><p>The system should provide customer desk portal access to receptionist for providing response to</p><p>customer inquiry</p><p>5. Manager Access</p><p>The system should enable manager full modification access to customer ,booking and room</p><p>information</p><p>6. Payment Management System</p><p>The system should allow customer to pay bill via online using credit or debit card</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T16:18:42.678Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>we have many Requirements(Functional and Non-functional) for various types of user, here it's listed</p><p>below.</p><p>(Functional)</p><p>1. Registration</p><p>The Customer should be able to register with their details</p><p>The system should record following customer details into member database.</p><p>1. Name</p><p>2. Email</p><p>3. Password</p><p>4. Address</p><p>5. DOB</p><p>The system shall send verification message to email</p><p>2. Logging In</p><p>The system should verify the customer email &amp; password against the member database when logging</p><p>in</p><p>After login, member should be directed to Home screen</p><p>3. Reservation</p><p>The system should enable customer to check for availability of rooms.</p><p>The system should record booking details into database.</p><p>4. Receptionist Access</p><p>The system should provide customer desk portal access to receptionist for providing response to customer inquiry.</p><p>5. Manager Access</p><p>The system should enable manager full modification access to customer ,booking and room information.</p><p>6. Payment Management System</p><p>The system should allow customer to pay bill via online using credit or debit card.</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T16:19:57.811Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "21",
+              "guid": "5b1b2d34-35da-45ea-ae3b-5d29e6818a30",
+              "heading": "External interfaces",
+              "text": "<p>Different payment methods will be used for payment so it will make connection with different bank portals.</p>",
+              "helpRef": "9.6.11",
+              "priority": "H",
+              "type": "INT",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:13:51.688Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>For payment method,&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:14:34.805Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:09.694Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:09.065Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>For payment service, different methods will be used.&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:16:23.434Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Different payment&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:17:55.966Z"
+                }
+              ]
+            },
+            {
+              "id": "22",
+              "guid": "4c097dbf-de8f-4260-9598-d89438dd0368",
+              "heading": "Functions",
+              "text": "<p>Register : Customers can register by providing name, phone number, age etc. private details. Customer will also be provide username and password for login.</p><p>Login : Customer can login using username and password after they can go for further services.</p><p>Customer Details : Manager or receptionist can see all details of particular customers.</p><p>Room Details : Any user characters can use this function to see the room details like room type, rate, availability, duration of stay.</p><p>Add Customer : Receptionist can add customer details to the database and allot them rooms as per their requirements.</p><p>Available Rooms : Receptionist and manager can see total number of available room details.</p><p>Update Rates : Manager or receptionist can update rates of rooms on special occasions.&nbsp;</p><p>Booked Rooms : Manager and receptionist can see the details of booked rooms like customer name, room number, type, rate etc.</p><p>Generate Bill : Manager and receptionist can generate bill of customers by providing customer name and room number.</p><p>Book Room : Customer can book room by using this function after selecting room type and rate.</p><p>Payment : Customer can do payment by using this service.</p><p>Feedback : Customer can give any feedback.</p>",
+              "helpRef": "9.6.12",
+              "priority": "H",
+              "type": "FR",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:02:23.118Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Manager or Receptionist</p><p>It allows them to update the details in database&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:06:47.342Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Manager or Receptionist</p><p>It allows them to login and update the details in database including to see details of customers, rooms, booking details,&nbsp;&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:09:04.275Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Manager or Receptionist : It allows them to login and update the details in database including to see details of customers, rooms, booking details, updating rates etc.</p><p>&nbsp;Customers : It allows them to login and see the details of themselves and give access the services like booking, room details, payment, feedback etc.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:11:57.218Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:13.008Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:11.840Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Manager or Receptionist : It allows them to login and update the details in database including to see details of customers, rooms, booking details, updating rates etc.</p><p>Customers : It allows them to login and see the details of themselves and give access the services like booking, room details, payment, feedback etc.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:19:12.014Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Register : Customers can register by providing name, phone number, age etc. private details.</p><p><br></p><p>Manager or Receptionist : It allows them to login and update the details in database including to see details of customers, rooms, booking details, updating rates etc.</p><p>Customers : It allows them to login and see the details of themselves and give access the services like booking, room details, payment, feedback etc.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:23:24.938Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Register : Customers can register by providing name, phone number, age etc. private details. Customer will also be provide username and password for login.</p><p>Login : Customer can login using username and password after they can go for further services.</p><p>Customer Details : Manager or receptionist can see all details of particular customers.</p><p>Room details : Any user characters can use this function to see the room details like room type, rate, availability, duration of stay.</p><p>Manager or Receptionist : It allows them to login and update the details in database including to see details of customers, rooms, booking details, updating rates etc.</p><p>Customers : It allows them to login and see the details of themselves and give access the services like booking, room details, payment, feedback etc.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:32:57.796Z"
+                }
+              ]
+            },
+            {
+              "id": "23",
+              "guid": "bc37fa22-2fc9-42d2-947a-fdfa1335d2a1",
+              "heading": "Usability requirements",
+              "text": "<p>There should be a user guide tour for new customers so that the usage of website or application will be easy for them.</p>",
+              "helpRef": "9.6.13",
+              "priority": "M",
+              "type": "INT",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:12:59.046Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:16.319Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:17.493Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>There should be a user guide tour for new customers.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:33:26.627Z"
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "guid": "d8e44a37-c370-43f4-b802-279feddc2e1d",
+              "heading": "Performance requirements",
+              "text": "<p>After successful login or registration, the customer profile will be visible with name and necessary details.</p>",
+              "helpRef": "9.6.14",
+              "priority": "M",
+              "type": "NFR",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:57:18.923Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>After successful login or registration, the profile will be visible with name</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T09:57:56.767Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:27.096Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:31.494Z"
+                }
+              ]
+            },
+            {
+              "id": "25",
+              "guid": "003d3102-67ab-4743-b16e-fdb660b0c7c5",
+              "heading": "Logical database requirements",
+              "text": "<p>User data is kept on application and website and also in database.</p>",
+              "helpRef": "9.6.15",
+              "priority": "H",
+              "type": "NFR",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:17:11.894Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:29.596Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:34.768Z"
+                }
+              ]
+            },
+            {
+              "id": "26",
+              "guid": "fb87f68e-0a25-45ce-9681-65abcddd9a82",
+              "heading": "Design constraints",
+              "text": "<p>To make system more responsive there will be worker and queue model (Queue will have the messages and worker will triggered and execute when it receive messages from the queue).</p>",
+              "helpRef": "9.6.16",
+              "priority": "M",
+              "type": "INT",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:19:16.168Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:39.615Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:38.139Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>To make system more responsive there will be worker and queue model(Queue will have the messages and worker will triggered and execute when it receive messages from the queue).</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T12:33:53.883Z"
+                }
+              ]
+            },
+            {
+              "id": "27",
+              "guid": "6daa0a1f-715e-4ea4-a59a-ede80e723f4b",
+              "heading": "Standards compliance",
+              "text": "<p>There will be secured payment under payment security standards.</p>",
+              "helpRef": "9.6.17",
+              "priority": "H",
+              "type": "INF",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:19:59.792Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>There will be secured payment under payment standards.</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:20:10.389Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:44.667Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:51.925Z"
+                }
+              ]
+            },
+            {
+              "id": "28",
+              "guid": "6fa03494-4790-4bfb-9b24-b8229556b492",
+              "heading": "Software system attributes",
+              "text": "<p>Correctness, Flexibility, Integrity, Portability, Testability</p>",
+              "helpRef": "9.6.18",
+              "priority": "M",
+              "type": "NFR",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:20:50.690Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Correctness,&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:21:20.871Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Correctness, Flexibility, Integrity,&nbsp;</p>"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:21:44.278Z"
+                },
+                {
+                  "attributesChanged": {
+                    "type": "SEC"
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T10:48:48.222Z"
+                },
+                {
+                  "attributesChanged": {
+                    "priority": null
+                  },
+                  "changedBy": {
+                    "company": "DAIICT",
+                    "email": "201901100@daiict.ac.in",
+                    "name": "Shubham"
+                  },
+                  "changedOn": "2022-03-06T11:51:56.098Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "guid": "99465bfd-2e1c-4378-8665-62067782d545",
+          "heading": "Verification",
+          "text": "<p>The improvement and update will be done on the basis of user feedback which they provides.</p>",
+          "helpRef": "9.6.19",
+          "priority": "M",
+          "type": "INF",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:22:29.958Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The&nbsp;</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:23:29.166Z"
+            },
+            {
+              "attributesChanged": {
+                "type": "SEC"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:49:04.044Z"
+            },
+            {
+              "attributesChanged": {
+                "priority": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:52:00.596Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The improvement and update will be done on the basis of user feedback.</p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T12:35:04.687Z"
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "guid": "782155ff-b165-4163-85b4-ffbf6d95936a",
+          "heading": "Supporting information",
+          "text": "<p>The system facilities are implemented on basis of other well known hotel services and customer requirement survey.&nbsp;</p>",
+          "helpRef": "9.6.20",
+          "priority": "M",
+          "type": "INF",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:26:12.941Z"
+            },
+            {
+              "attributesChanged": {
+                "type": "SEC"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:49:09.369Z"
+            },
+            {
+              "attributesChanged": {
+                "priority": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:52:08.805Z"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "guid": "9f4c9b9a-e251-4d01-bfe5-899b68a7992e",
+          "heading": "References",
+          "text": "<p><a href=\"https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf\">https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf</a></p><p><a href=\"https://www.academia.edu/10313728/srs_document_for_hotel_management_system\">https://www.academia.edu/10313728/srs_document_for_hotel_management_system</a></p><p><a href=\"https://studentprojectguide.com/project-report/srs/hotel-management-system-srs/\">https://studentprojectguide.com/project-report/srs/hotel-management-system-srs/</a></p>",
+          "helpRef": "9.2.4",
+          "priority": "L",
+          "type": "INF",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:30:37.505Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><a href=\"https://www.poloheritage.com/\">https://www.poloheritage.com/</a></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:30:56.973Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><a href=\"https://www.poloheritage.com/\">https://www.poloheritage.com/</a></p><p><a href=\"https://www.makemytrip.com/hotels/\">https://www.makemytrip.com/hotels/</a></p><p><br></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:31:15.199Z"
+            },
+            {
+              "attributesChanged": {
+                "type": "SEC"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T10:49:16.787Z"
+            },
+            {
+              "attributesChanged": {
+                "priority": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T11:52:12.803Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><a href=\"https://www.poloheritage.com/\">https://www.poloheritage.com/</a></p><p><a href=\"https://www.makemytrip.com/hotels/\">https://www.makemytrip.com/hotels/</a></p><p><a href=\"https://www.goibibo.com/hotels/\">https://www.goibibo.com/hotels/</a></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T12:44:14.823Z"
+            },
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T12:44:28.075Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><a href=\"https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf\">https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf</a></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T12:44:38.879Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><a href=\"https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf\">https://dipeshagrawal.files.wordpress.com/2018/07/srs-hotel-management-system-ok.pdf</a></p><p><a href=\"https://www.academia.edu/10313728/srs_document_for_hotel_management_system\">https://www.academia.edu/10313728/srs_document_for_hotel_management_system</a></p><p><br></p>"
+              },
+              "changedBy": {
+                "company": "DAIICT",
+                "email": "201901100@daiict.ac.in",
+                "name": "Shubham"
+              },
+              "changedOn": "2022-03-06T12:44:56.808Z"
+            }
+          ]
+        }
+      ],
+      "attributes": {
+        "difficulty": {
+          "name": "Difficulty",
+          "type": "enum",
+          "values": [
+            {
+              "key": "E",
+              "label": "Easy"
+            },
+            {
+              "key": "N",
+              "label": "Nominal"
+            },
+            {
+              "key": "D",
+              "label": "Difficult"
+            }
+          ]
+        },
+        "owner": {
+          "name": "Owner",
+          "type": "string"
+        },
+        "priority": {
+          "name": "Priority",
+          "type": "enum",
+          "values": [
+            {
+              "key": "L",
+              "label": "Low"
+            },
+            {
+              "key": "M",
+              "label": "Medium"
+            },
+            {
+              "key": "H",
+              "label": "High"
+            }
+          ]
+        },
+        "rationale": {
+          "name": "Rationale",
+          "type": "xhtml"
+        },
+        "source": {
+          "name": "Source",
+          "type": "string"
+        },
+        "status": {
+          "name": "Status",
+          "type": "enum",
+          "values": [
+            {
+              "key": "Draft"
+            },
+            {
+              "key": "Ready"
+            },
+            {
+              "key": "Reviewed"
+            },
+            {
+              "key": "Approved"
+            },
+            {
+              "key": "Released"
+            }
+          ]
+        },
+        "type": {
+          "name": "Type",
+          "type": "enum",
+          "values": [
+            {
+              "key": "FR",
+              "label": "Functional Requirement"
+            },
+            {
+              "key": "INT",
+              "label": "Interface Requirement"
+            },
+            {
+              "key": "NFR",
+              "label": "Non-func. Requirement"
+            },
+            {
+              "key": "SEC",
+              "label": "Section"
+            },
+            {
+              "key": "INF",
+              "label": "Information"
+            }
+          ]
+        },
+        "verMethod": {
+          "name": "Ver. Method",
+          "type": "enum",
+          "values": [
+            {
+              "key": "T",
+              "label": "Test"
+            },
+            {
+              "key": "D",
+              "label": "Demonstration"
+            },
+            {
+              "key": "I",
+              "label": "Inspection"
+            },
+            {
+              "key": "A",
+              "label": "Analysis"
+            }
+          ]
+        }
+      },
+      "view": {
+        "columns": [
+          {
+            "columnId": "id",
+            "hidden": false,
+            "width": 77
+          },
+          {
+            "attribute": "type",
+            "columnId": "type",
+            "hidden": false,
+            "width": 97
+          },
+          {
+            "columnId": "description",
+            "hidden": false,
+            "width": 372
+          },
+          {
+            "columnId": "discussion",
+            "hidden": true,
+            "width": 190
+          },
+          {
+            "columnId": "links",
+            "hidden": true,
+            "width": 196
+          },
+          {
+            "attribute": "source",
+            "columnId": "source",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "rationale",
+            "columnId": "rationale",
+            "hidden": false,
+            "width": 150
+          },
+          {
+            "attribute": "priority",
+            "columnId": "priority",
+            "hidden": false,
+            "width": 96
+          },
+          {
+            "attribute": "status",
+            "columnId": "status",
+            "hidden": false,
+            "width": 86
+          },
+          {
+            "attribute": "verMethod",
+            "columnId": "verMethod",
+            "hidden": false,
+            "width": 105
+          },
+          {
+            "attribute": "difficulty",
+            "columnId": "difficulty",
+            "hidden": true,
+            "width": 108
+          },
+          {
+            "attribute": "owner",
+            "columnId": "owner",
+            "hidden": true,
+            "width": 106
+          },
+          {
+            "columnId": "attributes",
+            "hidden": true,
+            "width": 300
+          }
+        ]
+      }
+    }
+  ],
+  "attachments": {
+  },
+  "traceability": {
+    "conflict": {
+      "name": "Conflict",
+      "source": "Is in conflict with"
+    },
+    "dependency": {
+      "name": "Dependency",
+      "source": "Depends on",
+      "target": "Blocks"
+    },
+    "reference": {
+      "name": "Reference",
+      "source": "References",
+      "target": "Is referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Is satisfied by"
+    },
+    "verification": {
+      "name": "Verification",
+      "source": "Verifies",
+      "target": "Is verified by"
+    }
+  },
+  "metadata": {
+    "format": "2.13",
+    "saveHistory": true
+  }
+}
