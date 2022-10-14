@@ -1,0 +1,7 @@
+http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics
+
+https://github.com/aniskoubaa/ros_essentials_cpp
+
+https://github.com/aniskoubaa/ros_essentials_cpp.git
+
+http://wiki.ros.org/ROS/Tutorials/UnderstandingTopics

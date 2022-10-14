@@ -1,0 +1,5 @@
+http://wiki.ros.org/ROS/Tutorials/CreatingPackage
+
+http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29
+
+https://github.com/aniskoubaa/ros_essentials_cpp/tree/master/src/topic01_basics/talker_listener

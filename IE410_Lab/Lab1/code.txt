@@ -1,0 +1,45 @@
+#Printing sentences
+print("Hello world")
+print("Welcome to IE 410 - Introduction to Robotics")
+
+
+#Arithmetic operations
+a = 5
+b = 2
+print("a is", a, "and", "b is", b) #printing a and b
+print("a+b is", a+b) #printing value of a+b
+print("a-b is", a-b) #printing value of a-b
+print("a*b is", a*b) #printing value of a*b
+print("a/b is", a/b) #printing value of a/b
+print("a%b is", a%b) #printing value of a%b
+print("a^b is", a**b) #printing value of a^b
+
+
+#printing array and sum of its element
+array = [10,20,30,40,50]
+print("Array elements are",array) #printing array elements
+
+sum = 0
+for i in array:
+    sum = sum + i
+print("Sum of its elements is",sum)
+
+
+#Sum of n natural numbers
+n = 10
+if n < 0:
+   print("Enter a positive number")
+else:
+   sum = 0
+   while(n > 0):
+       sum += n
+       n -= 1
+   print("The sum of n numbers is", sum)
+
+
+#String
+string = " IE410 Introduction To Robotics "
+split_string = string.split() #splits string
+print(split_string)
+joined_string = '-'.join(split_string) #join string
+print(joined_string)

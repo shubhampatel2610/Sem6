@@ -1,0 +1,20 @@
+https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install ros-kinetic-turtlebot-*
+
+alias burger='export TURTLEBOT3_MODEL=burger'
+alias waffle='export TURTLEBOT3_MODEL=waffle'
+alias tb3fake='roslaunch turtlebot3_fake turtlebot3_fake.launch'
+alias tb3key='roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch'
+alias tb3='roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch'
+alias tb3maze='roslaunch turtlebot3_gazebo turtlebot3_world.launch'
+alias tb3house='roslaunch turtlebot3_gazebo turtlebot3_house.launch'
+
+https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/
+
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+roslaunch turtlebot3_gazebo turtlebot3_house.launch
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch

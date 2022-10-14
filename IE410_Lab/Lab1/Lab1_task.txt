@@ -1,0 +1,2 @@
+1. ROS installation
+2. Practice of python basic codes
