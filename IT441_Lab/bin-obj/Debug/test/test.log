@@ -1,0 +1,22 @@
+﻿  4-Transformation.cpp
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(95,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(95,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(107,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(107,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(113,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(113,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(127,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(127,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(132,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(132,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(146,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(146,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(151,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(151,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(164,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(164,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(170,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(170,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(211,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Sem6\CG\Lab\Lab\test\src\4-Transformation.cpp(211,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  test.vcxproj -> D:\Sem6\CG\Lab\Lab\bin\Debug\test\test.exe
